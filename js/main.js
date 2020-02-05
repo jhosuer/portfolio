@@ -37,23 +37,21 @@ let bodyFunction = () => {
 
 	link.addEventListener('click', function() {
 		// Link to a different page;
-		location.href='https://www.figma.com/file/EuBixvX80Jqy8zFzlEirmJlv/ApoE4';
-		location.target='_blank';
+		window.open('https://www.figma.com/file/EuBixvX80Jqy8zFzlEirmJlv/ApoE4', '_blank');
 	});
 	link2.addEventListener('click', function() {
 		// Link to a different page;
-		location.href='https://www.figma.com/file/aOYoWzJ8XpowvPxe2TVJUvqy/Learning-Portal';
-		location.target='_blank';
+		window.open('https://www.figma.com/file/aOYoWzJ8XpowvPxe2TVJUvqy/Learning-Portal', '_blank');
 	});
 	link3.addEventListener('click', function() {
 		// Link to a different page;
-		location.href='https://www.figma.com/file/4fhOs4RRH3zqg4YT1a0PtX/bitway';
-		location.target='_blank';
+		window.open('https://www.figma.com/file/4fhOs4RRH3zqg4YT1a0PtX/bitway', '_blank');
 	});
-	link4.addEventListener('click', function() {
+	link4.addEventListener('click', function(e) {
 		// Link to a different page;
-		location.href='http://havanzer.com/';
-		location.target='_blank';
+		// location.href='http://havanzer.com/';
+		// location.target='_blank';
+		window.open('http://havanzer.com', '_blank');
 	});
 	clickToNav.addEventListener('click', function() {
 		// if(navUl.style.display == 'block') {
