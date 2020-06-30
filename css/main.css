@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Roboto&display=swap" rel="stylesheet');
 html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	line-height: 60px;
 	color: #333
@@ -30,21 +30,27 @@ body::-webkit-scrollbar-thumb {
 }
 h1 {
 	font-size: 2.5em;
+	font-family: 'Open Sans', sans-serif;
 }
 h2 {
 	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
 }
 h3 {
 	font-size: 1.7em;
+	font-family: 'Open Sans', sans-serif;
 }
 h4 {
 	font-size: 1.2em;
+	font-family: 'Open Sans', sans-serif;
 }
 h5 {
 	font-size: 0.8em;
+	font-family: 'Open Sans', sans-serif;
 }
 h6 {
 	font-size: 0.7em;
+	font-family: 'Open Sans', sans-serif;
 }
 header {
 	height: 60px;
