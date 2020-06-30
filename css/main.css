@@ -101,7 +101,6 @@ a:hover {
 	color: #1A2A58;
 	opacity: 0.9;
 }
-
 .hero-section img {
 	width: 70%;
 	height: auto;
@@ -382,32 +381,61 @@ footer hr {
 	}
 	.hero-section h1  {
 		margin-left: 0;
-		text-align: center;
+		text-align: left;
+	}
+	.hs-h1 {
+		display: flex;
+		justify-content: space-around;
+	}
+	.hero-section img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+
 	}
 	.about h2 {
-		text-align: center;
+		text-align: left;
 		margin-left: 0;
 		color: #dbe238;
 	}
 	.about p {
-		text-align: center;
+		text-align: left;
 		margin-left: 0;
 	}
-	.comp p {
+	/*.comp p {
 		text-align: center;
 		margin-left: 0;
+	}*/
+	/*.comp ul li {
+		margin-left: 10px;
+	}*/
+	.comp ul {
+		display: flex;
+		flex-direction: column;
 	}
 	.comp ul li {
-		margin-left: 10px;
+		margin-bottom: 15px;
 	}
+	.comp img {
+		width: 60%;
+	}
+
 	.work {
 		text-align: center;
+
 	}
-	.work .first h2, .work .first p {
+	.work h2, .work p {
 		margin-left: 0;
-		text-align: center;
+		text-align: left;
 	}
 	.work .first img {
 		text-align: center;
+		margin-top: 30px;
+	}
+	.work button:nth-child(3) {
+		display: none;
+	}
+	#work button:nth-child(2) {
+		display: none;
 	}
 };
