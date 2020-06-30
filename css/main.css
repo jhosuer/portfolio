@@ -425,13 +425,19 @@ footer hr {
 
 	}
 	.work h2, .work p {
-		margin-left: 0;
 		text-align: left;
+		margin-left: 0px;
+	}
+	.work .first h2, .work .first p {
+		margin-left: 0px;
 	}
 	.work .first img {
 		text-align: center;
 		margin-top: 30px;
 	}
+	.work .first button:first-child {
+	margin-left: 0px;
+}
 	.work button:nth-child(3) {
 		display: none;
 	}
