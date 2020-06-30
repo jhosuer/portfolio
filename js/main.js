@@ -45,7 +45,7 @@ let bodyFunction = () => {
 	});
 	link3.addEventListener('click', function() {
 		// Link to a different page;
-		window.open('https://www.figma.com/file/4fhOs4RRH3zqg4YT1a0PtX/bitway', '_blank');
+		window.open('https://www.figma.com/file/vXqsRqpH8TbRe585ubU9ZO/baby-photography?node-id=1%3A4', '_blank');
 	});
 	link4.addEventListener('click', function(e) {
 		// Link to a different page;
